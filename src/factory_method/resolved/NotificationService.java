@@ -1,4 +1,4 @@
-package factory_method;
+package factory_method.resolved;
 
 public class NotificationService {
     public void notifyUser(String type, String message) {

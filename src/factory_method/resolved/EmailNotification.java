@@ -1,4 +1,4 @@
-package factory_method;
+package factory_method.resolved;
 
 public class EmailNotification implements INotification{
     @Override

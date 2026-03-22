@@ -1,4 +1,4 @@
-package factory_method;
+package factory_method.unresolved;
 
 public class NotificationApp {
     public static void main(String[] args) {
