@@ -1,4 +1,4 @@
-package adapter.unresolved;
+package adapter.resolved;
 
 public class BitcoinAPI {
     public void makeTransaction(double amount) {

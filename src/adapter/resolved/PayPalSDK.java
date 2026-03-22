@@ -1,4 +1,4 @@
-package adapter.unresolved;
+package adapter.resolved;
 
 public class PayPalSDK {
     public void sendPayment(double value) {

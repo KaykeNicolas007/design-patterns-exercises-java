@@ -1,4 +1,4 @@
-package adapter.unresolved;
+package adapter.resolved;
 
 public class BitcoinAPIAdapter implements IPaymentProcessor {
     private BitcoinAPI bitcoin;

@@ -1,4 +1,4 @@
-package adapter.unresolved;
+package adapter.resolved;
 
 public class PaymentApp {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package adapter.unresolved;
+package adapter.resolved;
 
 public class PayPalSDKPaymentAdapter implements IPaymentProcessor {
     private PayPalSDK paypal;

@@ -1,4 +1,4 @@
-package adapter.unresolved;
+package adapter.resolved;
 
 public interface IPaymentProcessor {
     void pay(double amount);
