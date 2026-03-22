@@ -1,4 +1,4 @@
-package singleton;
+package singleton.resolved;
 
 public class LoginService {
     private final AppConfig config;

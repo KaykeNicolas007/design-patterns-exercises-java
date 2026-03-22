@@ -1,7 +1,4 @@
-package singleton;
-
-import java.util.HashMap;
-import java.util.Map;
+package singleton.resolved;
 
 public class App {
     public static void main(String[] args) {

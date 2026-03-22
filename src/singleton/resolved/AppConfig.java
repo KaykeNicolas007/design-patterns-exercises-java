@@ -1,4 +1,4 @@
-package singleton;
+package singleton.resolved;
 
 import java.util.HashMap;
 import java.util.Map;

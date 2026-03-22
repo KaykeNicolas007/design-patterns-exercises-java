@@ -1,4 +1,4 @@
-package singleton;
+package singleton.resolved;
 
 public class OrderService {
     private final AppConfig config;
