@@ -2,17 +2,19 @@ package strategy.resolved;
 
 public class CheckoutService {
     IShippingCalculator shippingType;
+    Order order;
 
-    public CheckoutService(IShippingCalculator newShippingType){
+    public CheckoutService(IShippingCalculator newShippingType, Order newOrder){
         shippingType = newShippingType;
+        order = newOrder;
     }
 
-    public double calculateShipping(Order order){
+    public double calculateShipping(){
         return shippingType.calculate(order.getTotal());
     }
 
-    public double finalizeOrder(Order order) {
-        double shippingCost = calculateShipping(order);
+    public double finalizeOrder() {
+        double shippingCost = calculateShipping();
         return order.getTotal() + shippingCost;
     }
 }
